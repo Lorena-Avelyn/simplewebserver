@@ -1,6 +1,6 @@
 # EX01 Developing a Simple Webserver
 ## Date:
-26/10/2024
+24/10/2024
 ## AIM:
 To develop a simple webserver to serve html pages and display the configuration details of laptop.
 
@@ -32,7 +32,7 @@ content='''
 </head>
 <body>
 <h1> My Laptop Configuration</h1>
-<table >
+<table border="2" bordercolor="black">
     <tr>
         <th width="50%">System Config</th>
         <th>Description</th>
@@ -78,7 +78,7 @@ httpd.serve_forever()
 
 
 ## OUTPUT:
-![alt text](<Screenshot (42).png>)
+![alt text](<Screenshot (45).png>)
 ![alt text](<Screenshot (44).png>)
 
 ## RESULT:

@@ -8,7 +8,7 @@ content='''
 </head>
 <body>
 <h1> My Laptop Configuration</h1>
-<table >
+<table border="2" bordercolor="black">
     <tr>
         <th width="50%">System Config</th>
         <th>Description</th>
